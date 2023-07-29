@@ -13,13 +13,13 @@ const DisplayImages = () => {
 
 <div className="image-container" >
 <h2> . . . . . . .  </h2>  
-<img src="./mm1.jpg" alt=""     />
+<img src="./mm1.webp" alt=""     />
 </div>
 
 
 <div className="image-container" >
 {/* <h2> . . . . . . .  </h2>   */}
-<img src="./tk5.jpg" alt=""     />
+<img src="./tk.webp" alt=""     />
 {/* <h1 className="glass" data-aos="fade-up"><a href="gallery.html"> View gallery &gt;&gt;&gt;&gt;  </a> </h1> */}
 
 </div>
@@ -27,7 +27,7 @@ const DisplayImages = () => {
 
 <div className="image-container" >
 <h2> . . . . . . .  </h2>  
-<img src="./fam.JPG" alt=""     />
+<img src="./fam.webp" alt=""     />
 </div>
 
 

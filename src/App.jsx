@@ -2,7 +2,7 @@
 import Hero from "./components/Hero/Hero";
 import DisplayImages from './components/displayImages/DisplayImages';
 import Companies from './components/Companies/Companies';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 
 
 
@@ -15,7 +15,7 @@ function App() {
         <Hero />
         <DisplayImages />
         <Companies />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );
