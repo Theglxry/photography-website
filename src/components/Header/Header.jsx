@@ -1,27 +1,86 @@
-import "./Header.css";
+import './Header.css'
+import { Link } from 'react-scroll';
+import { useState } from 'react';
+
+
 
 const Header = () => {
+    const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    const handleMobileMenuClick = () => {
+      setMobileMenuOpen(!isMobileMenuOpen);
+    };
+
+// console.log(isMobileMenuOpen);
+
   return (
-    <section className="h-wrapper">
-    <div className="flexCenter paddings h-container">
+    <>
+<nav className='innerWidth'>
 
-
-
-      <div className="flexCenter paddings h-menu-left">
-        <a href=" "> Home </a>
-        <a href=" "> About </a>
-        <a href=" "> Services </a>
+<div className=' logo-container'>
+      <img className='logo' src='1c.png'/>
       </div>
 
 
 
-      <div className="flexCenter h-menu-right">
-        <a href=" "> Blog </a>
-        <button className="button"><a href=" "> Gallery </a></button>
-        <a href=" "> Contact </a>
-      </div>
+  <div className="paddings nav-container">
+
+    <div className="nav-left">
+      <ul className="navbar-left">
+        {/* Left navigation items */}
+        <li>
+          <Link to="hero-section" smooth={true} duration={500} offset={-70}>
+            HOME
+          </Link>
+        </li>
+        <li>
+          <Link to="bio-section" smooth={true} duration={500} offset={-70}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="project-section"
+            smooth={true}
+            duration={500}
+            offset={-70}
+          >
+            Services
+          </Link>
+        </li>
+      </ul>
     </div>
-  </section>
+
+    <div className="nav-right">
+      <ul className="navbar-right">
+        {/* Right navigation items */}
+        <li>
+          <Link to="footer-section" smooth={true} duration={500} offset={-70}  >
+            Blog
+          </Link>
+        </li>
+        <li>
+          <Link to="footer-section" smooth={true} duration={500} offset={-70}
+            className="active" >
+            Gallery
+          </Link>
+        </li>
+        <li>
+          <Link to="footer-section" smooth={true} duration={500} offset={-70}>
+            Contact
+          </Link>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="mobile" onClick={handleMobileMenuClick}>
+    {/* Toggle mobile menu icon */}
+    <i className={`fas ${isMobileMenuOpen ? 'fa-times' : 'fa-bars'}`} id="bar"></i>
+  </div>
+</nav>
+
+    </>
   );
 };
 

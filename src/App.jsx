@@ -1,20 +1,16 @@
-// import React from "react";
+import React from "react";
 import Hero from "./components/Hero/Hero";
-import DisplayImages from './components/displayImages/DisplayImages';
-import Companies from './components/Companies/Companies';
+// import DisplayImages from './components/displayImages/DisplayImages';
+// import Companies from './components/Companies/Companies';
 // import Footer from './components/Footer/Footer';
-
-
-
-
 
 function App() {
   return (
     <div className="App">
       <div>
         <Hero />
-        <DisplayImages />
-        <Companies />
+        {/* <DisplayImages /> */}
+        {/* <Companies /> */}
         {/* <Footer /> */}
       </div>
     </div>
@@ -22,3 +18,7 @@ function App() {
 }
 
 export default App;
+
+
+
+
