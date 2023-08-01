@@ -30,6 +30,11 @@ const Hero = () => {
       {/* <div className="logo-image">
         <img src="./1c.png" alt="fsp logo" />
       </div> */}
+
+
+
+
+      
     </section>
   );
 };

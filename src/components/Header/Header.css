@@ -113,13 +113,14 @@ nav {
         justify-content: flex-start;
         width: 100%;
         position: fixed;
-        top: 70px;
+        top: 0px;
         right: 0;
-        width: 300px;
+        /* width: 300px; */
+        width: 100%;
         height: 100vh;
         padding: 40px 0 40px 20px;
         transform: translateX(100%);
-        background: rgba(91, 7, 7, 0.46);
+        background: rgba(7, 91, 83, 0.46);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(20px);
@@ -136,6 +137,7 @@ nav {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: left;
       }
     
       .nav-left li,

@@ -19,10 +19,17 @@
 .logo img {
   width: 100%;
 } 
-@media (min-width: 200px) and (max-width: 500px) {
+
+
+
+
+
+@media (min-width: 200px) and (max-width: 768px) {
   .hero-wrapper {
     width: 100%;
+    /* padding-top: 5rem; */
     max-height: 60vh;
+    /* background-size: contain; */
   }
 
 
@@ -38,5 +45,6 @@
   .logo-image img {
     max-width: 100%;
   }
-
 }
+
+
