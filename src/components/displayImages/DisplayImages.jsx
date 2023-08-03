@@ -2,9 +2,11 @@ import "./DisplayImages.css";
 
 const DisplayImages = () => {
   return (
-    <section className="section-1">
-      <h1 className="glass" data-aos="fade-up">
-        {" "} Capturing moments from today…Creating memories for a lifetime{" "}
+    <section className="portfolio-wrapper">
+      <h1 data-aos="fade-up" className="paddings">
+        {" "} Creating memories for a lifetime{" "}
+      <hr></hr>
+
       </h1>
     
 
@@ -26,9 +28,25 @@ const DisplayImages = () => {
 
 
 <div className="image-container" >
-<h2> . . . . . . .  </h2>  
+{/* <h2> . . . . . . .  </h2>   */}
 <img src="./fam.webp" alt=""     />
+
 </div>
+
+
+
+<div className="image-container   center-box" >
+{/* <h2> . . . . . . .  </h2>   */}
+{/* <img src="./fam.webp" alt=""     /> */}
+
+<div class="circle" data-folder-name ="portraits">
+<a href="#"> 
+View portfolio 
+</a>
+</div>
+
+</div>
+
 
 
 </div>

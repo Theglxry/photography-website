@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "./components/Hero/Hero";
-// import DisplayImages from './components/displayImages/DisplayImages';
+import DisplayImages from './components/displayImages/DisplayImages';
 // import Companies from './components/Companies/Companies';
 // import Footer from './components/Footer/Footer';
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div>
         <Hero />
-        {/* <DisplayImages /> */}
+        <DisplayImages />
         {/* <Companies /> */}
         {/* <Footer /> */}
       </div>

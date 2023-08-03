@@ -1,12 +1,12 @@
 .hero-wrapper {
   max-width: 100%;
   height: 80rem;
-  background-image: url('/hero-img.webp');
+  background-image: url("/hero-img.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #fff;
 }
-
 
 .logo-image {
   max-width: 70%;
@@ -18,33 +18,77 @@
 }
 .logo img {
   width: 100%;
-} 
+}
 
+.intro-container {
+  max-width: 70%;
+  margin: 30rem auto;
+  font-size: 14px;
+  padding: 2rem;
+  /* border: 2px solid salmon; */
+}
 
+.intro-container * {
+  margin-bottom: 0.5rem;
+}
 
+.intro-caption {
+  margin: 0px 0px 17px;
+}
 
+.intro-caption h4 {
+  font-size: 12px;
+  margin: 20px 0px;
+}
 
+.divider {
+  height: 2px;
+  width: 100px;
+  background-color: #d3ded3;
+  margin-right: 10px;
+}
+
+.overflow-container h2 {
+  font-size: 50px;
+  font-weight: var(--font-bold);
+}
+
+h2 {
+  font-size: var(--font-l);
+}
+
+.intro-container p {
+  font-size: 13px;
+  margin: 10px 0px;
+}
+
+/* mobile  */
 @media (min-width: 200px) and (max-width: 768px) {
   .hero-wrapper {
     width: 100%;
-    /* padding-top: 5rem; */
     max-height: 60vh;
-    /* background-size: contain; */
   }
-
 
   .logo-image {
     display: none;
     max-width: 80%;
     top: 0;
-    /* max-height: 30vh; */
     border: 2px solid red;
   }
-
 
   .logo-image img {
     max-width: 100%;
   }
+
+  .hero-wrapper .intro-container {
+    /* max-width: 100%;
+    margin: 0 auto; */
+    display: none;
+  }
+
+  /* .overflow-container h2 {
+    font-size: 2rem;
+  } */
 }
 
 
