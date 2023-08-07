@@ -3,11 +3,11 @@ import "./DisplayImages.css";
 const DisplayImages = () => {
   return (
     <section className="portfolio-wrapper">
-      <h1 data-aos="fade-up" className="paddings">
+      <h1 className="paddings">
         {" "} Creating memories for a lifetime{" "}
+      </h1>
       <hr></hr>
 
-      </h1>
     
 
 <div className="glass display-wrapper">

@@ -12,14 +12,39 @@ const Companies = () => {
 
 
 
-<h1> BRANDS THAT TRUSTS US </h1>
-<div className='paddings innerWidth flexCenter c-container'>
-<img src='./Total.png'  alt='' />
-<img src='./LS.png'  alt='' />
-<img src='./Moove.jpeg'  alt='' />
-<img src='./DDE.jpeg'  alt='' />
-<img src='./zenith.svg'  alt='' />
+<h1 className='paddings'> BRANDS THAT TRUSTS US </h1>
+<div className='paddings innerWidth c-container'>
 
+
+
+<div className='c-img'> 
+<img src='./Total.png'  alt='total logo' />
+</div>
+
+
+<div className='c-img'> 
+<img src='./LS.png'  alt='lagos state govt' />
+</div>
+
+
+<div className='c-img'> 
+<img src='./Moove.jpeg'  alt='moove ng' />
+</div>
+
+
+<div className='c-img'> 
+<img src='./DDE.jpeg'  alt='doctor dolor ent' />
+</div>
+
+
+<div className='c-img'> 
+<img src='./zenith.webp'  alt='zenith bank ' />
+</div>
+
+
+<div className='c-img'> 
+<img src='./zanna.png'  alt='zenith bank ' />
+</div>
 
 
 

@@ -43,6 +43,10 @@ html {
   padding: 0;
 }
  
+ul{
+  list-style-type: none;
+}
+
 
 a {
   color: inherit;
@@ -94,7 +98,7 @@ a {
 
 .grid{
   display: grid;
-  
+
 }
 
 

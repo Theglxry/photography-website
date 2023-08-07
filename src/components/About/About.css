@@ -1,0 +1,42 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: left;
+}
+
+.about-details,
+.aboutImg {
+  width: 100%;
+}
+.about-details{
+  border-bottom: 2px solid grey;
+}
+.about-details h1{
+padding-bottom: 1rem;
+}
+
+.aboutImg > img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+ul * {
+    list-style-type:circle;
+
+    padding: 2rem;
+  }
+
+
+@media (min-width: 768px) {
+  .about-container {
+    flex-direction: row;
+    padding: 15rem 5rem 3rem 5rem;
+  }
+
+  .aboutImg {
+    width: 50%;
+  }
+
+
+}

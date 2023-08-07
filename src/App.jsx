@@ -1,7 +1,8 @@
 import React from "react";
 import Hero from "./components/Hero/Hero";
+import About from "./components/About/About"
 import DisplayImages from './components/displayImages/DisplayImages';
-// import Companies from './components/Companies/Companies';
+import Companies from './components/Companies/Companies';
 // import Footer from './components/Footer/Footer';
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
       <div>
         <Hero />
         <DisplayImages />
-        {/* <Companies /> */}
+        <About />
+
+        <Companies />
         {/* <Footer /> */}
       </div>
     </div>
