@@ -1,11 +1,12 @@
 .c-wrapper {
   width: 100%;
+  background: rgb(253, 246, 234);
 }
 
 .c-wrapper > h1 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: var(--font-m);
+  font-size: var(--font-s);
   color: #474b4f;
 }
 
@@ -21,10 +22,10 @@
 }
 
 .c-container .c-img {
-  width: 100%;
+  width: 5rem;
   border-radius: 100px;
-  background: rgb(234, 232, 227);
-  padding: 2rem;
+  background: rgb(12, 114, 111);
+  padding: 1rem;
 }
 
 .c-container .c-img > img {
@@ -36,7 +37,11 @@
 
 
 @media (min-width: 760px) {
+  .c-wrapper {
+    padding: 4rem;
+  }
 .c-wrapper > h1 {
+  margin-bottom: 5rem;
   font-size: var(--font-l);
 }
 
@@ -44,8 +49,25 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+
+width: 100%;
+  padding: 4rem;
+  gap: 5%;
+  padding: 0 auto;
+
 }
 
- 
+ .c-container .c-img {
+  border: 2px solid rgb(87, 101, 101);
+  width: 10rem;
+
+
+
+  /* width: 100%;
+  border-radius: 100px;
+  background: rgb(12, 114, 111);
+  padding: 2rem; */
+ }
 
 }

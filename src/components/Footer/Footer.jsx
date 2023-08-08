@@ -10,11 +10,11 @@ const Footer = () =>{
 
 <footer className = "footer">
       <div className = "footer-container">
-          <div>
+          {/* <div>
               <h2>FAITH SAMUELS</h2>
               <p>Welcome to faithsamuelsphotography, where we strive to capture the beauty of life through our lens!
                  We believe that every moment is worth preserving, and that is why we are passionate about creating timeless memories that will last a lifetime.. </p>
-          </div>
+          </div> */}
 
 
 

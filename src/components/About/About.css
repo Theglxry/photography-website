@@ -12,19 +12,21 @@
 .about-details{
   border-bottom: 2px solid grey;
 }
-.about-details h1{
-padding-bottom: 1rem;
+.about-details h1, h2{
+padding-bottom: 2rem;
 }
 
-.aboutImg > img {
-  border-radius: 50%;
-  width: 100%;
+.about-details p {
+  line-height: 25px;
+}
+
+.aboutImg {
+  display: none;
 }
 
 ul * {
     list-style-type:circle;
-
-    padding: 2rem;
+    padding: 1rem;
   }
 
 
@@ -35,8 +37,17 @@ ul * {
   }
 
   .aboutImg {
+    display: block;
     width: 50%;
   }
 
+  .aboutImg > img {
+    border-radius: 50%;
+    width: 100%;
+  }
+
+  ul *{
+    padding: 2rem;
+  }
 
 }
