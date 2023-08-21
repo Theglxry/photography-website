@@ -59,6 +59,7 @@ nav {
 .nav-right li a:hover,
 .nav-right li a.active {
   cursor: pointer;
+  background-color: #25531f;
   border: 2px solid #25531f;
 }
 
