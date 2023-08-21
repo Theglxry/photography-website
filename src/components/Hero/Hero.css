@@ -61,8 +61,6 @@ h2 {
   margin: 10px 0px;
 }
 
-
-
 /** __________________________________ mobile _____________________________________*/
 @media (min-width: 200px) and (max-width: 768px) {
   .hero-wrapper {
@@ -89,9 +87,10 @@ h2 {
     margin: 17rem auto;
     display: block;
     padding: 1rem;
+    border: none;
   }
-  
-  .intro-container *{
+
+  .intro-container * {
     margin-bottom: -1rem;
   }
 
@@ -99,7 +98,7 @@ h2 {
     font-size: 15px;
     margin-top: 2rem;
   }
-  
+
   .intro-container p {
     font-size: 10px;
     margin: 10px 0px;
@@ -107,12 +106,6 @@ h2 {
   .intro-container .ic-btn {
     border: 2px solid #61892f;
     font-size: 7px;
-  padding: 7px 8px;
+    padding: 7px 8px;
+  }
 }
-
-
-
-
-}
-
-
