@@ -84,10 +84,17 @@ h2 {
   }
 
   .hero-wrapper .intro-container {
-    margin: 17rem auto;
+    /* margin: 17rem auto; */
     display: block;
     padding: 1rem;
     border: none;
+
+
+    position: absolute;
+    margin: 0 auto;
+    top: 30%;
+    left: 20%;
+    width: 100%;
   }
 
   .intro-container * {
