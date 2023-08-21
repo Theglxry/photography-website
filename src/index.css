@@ -120,12 +120,8 @@ a {
 .button {
   text-transform: uppercase;
   font-weight: 500;
-  /* padding: 0.6rem 1.4rem; */
   font-size: 18px;
   padding: 13px 40px;
-
-  /* padding: 0.2rem; */
-
   color: white;
   background: var(--darkGreen);
   border: none;

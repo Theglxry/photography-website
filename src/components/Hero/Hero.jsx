@@ -47,12 +47,7 @@ const Hero = () => {
           <div className="divider"></div>
         </span>
 
-        <div
-          data-aos="fade-up-left"
-          data-aos-easing="linear"
-          data-aos-duration="1000"
-          className=" overflow-container flexColStart"
-        >
+        <div data-aos="fade-up-left" data-aos-easing="linear" data-aos-duration="1000" className=" overflow-container flexColStart">
           <h2>
             Professional Photos <br />
             Guaranteed At FaithSamuels <br />
@@ -60,9 +55,9 @@ const Hero = () => {
           </h2>
         </div>
 
-        <p data-aos="fade-up"> book a photo shoot session today </p>
+        <p data-aos="fade-up"> book a photo shoot session today! </p>
         <a href="book-section">
-          <button className="button"> BOOK NOW </button>
+          <button className="ic-btn button"> BOOK NOW </button>
         </a>
       </div>
     </section>

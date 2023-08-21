@@ -25,7 +25,6 @@
   margin: 30rem auto;
   font-size: 14px;
   padding: 2rem;
-  /* border: 2px solid salmon; */
 }
 
 .intro-container * {
@@ -62,7 +61,9 @@ h2 {
   margin: 10px 0px;
 }
 
-/* mobile  */
+
+
+/** __________________________________ mobile _____________________________________*/
 @media (min-width: 200px) and (max-width: 768px) {
   .hero-wrapper {
     width: 100%;
@@ -79,15 +80,39 @@ h2 {
     max-width: 100%;
   }
 
-  .hero-wrapper .intro-container {
-    /* max-width: 100%;
-    margin: 0 auto; */
-    display: none;
+  .intro-caption h4 {
+    font-size: 5.5px;
+    margin: 0px 0px 10px;
   }
 
-  /* .overflow-container h2 {
-    font-size: 2rem;
-  } */
+  .hero-wrapper .intro-container {
+    margin: 17rem auto;
+    display: block;
+    padding: 1rem;
+  }
+  
+  .intro-container *{
+    margin-bottom: -1rem;
+  }
+
+  .overflow-container h2 {
+    font-size: 12px;
+    margin-top: 2rem;
+  }
+  
+  .intro-container p {
+    font-size: 5.5px;
+    margin: 10px 0px;
+  }
+  .intro-container .ic-btn {
+    border: 2px solid #61892f;
+    font-size: 7px;
+  padding: 7px 8px;
+}
+
+
+
+
 }
 
 

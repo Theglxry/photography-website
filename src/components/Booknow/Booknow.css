@@ -67,7 +67,7 @@ input::placeholder {
 
 @media (min-width: 760px) {
   .form-container {
-  padding: 12rem 2rem;
+  padding: 12rem 10rem;
 
   }
 .form-container h1 {
