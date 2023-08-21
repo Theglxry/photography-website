@@ -81,7 +81,7 @@ h2 {
   }
 
   .intro-caption h4 {
-    font-size: 5.5px;
+    font-size: 7px;
     margin: 0px 0px 10px;
   }
 
@@ -96,12 +96,12 @@ h2 {
   }
 
   .overflow-container h2 {
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 2rem;
   }
   
   .intro-container p {
-    font-size: 5.5px;
+    font-size: 7px;
     margin: 10px 0px;
   }
   .intro-container .ic-btn {
