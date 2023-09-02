@@ -11,15 +11,21 @@
 }
 
 .c-container {
-  width: 100%;
+  /* width: 100%;
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(3,2fr);
+  grid-template-columns: repeat(6,2fr);
+  overflow: hidden;
+  align-content: center;
+  align-items: center;
+  gap: 5%; */
+ 
+/* padding: 4rem;
+padding: 0 auto; */
 
-  padding: 4rem;
-  gap: 5%;
-  padding: 0 auto;
 }
+
+
 
 .c-container .c-img {
   width: 5rem;
@@ -30,16 +36,16 @@
 
 .c-container .c-img > img {
   width: 100%;
-
 }
 
 
 
 
-@media (min-width: 760px) {
+@media (min-width: 500px) {
   .c-wrapper {
-    padding: 4rem;
+    padding-inline: 4rem;
   }
+
 .c-wrapper > h1 {
   margin-bottom: 5rem;
   font-size: var(--font-l);
@@ -61,13 +67,6 @@ width: 100%;
  .c-container .c-img {
   border: 2px solid rgb(87, 101, 101);
   width: 10rem;
-
-
-
-  /* width: 100%;
-  border-radius: 100px;
-  background: rgb(12, 114, 111);
-  padding: 2rem; */
  }
 
 }

@@ -1,10 +1,20 @@
 import "./About.css";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
+
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
-    <section className="about-container">
-      <div className="about-wrapper">
+    <section className="about-container"  data-aos="fade-up" data-aos-duration="1000">
+      <div className=" about-wrapper">
         <div className="paddings about-details">
           <h1> ABOUT US </h1>
           <h2>FAITH SAMUELS</h2>

@@ -1,19 +1,26 @@
 import './Companies.css';
-
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 const Companies = () => {
-
+    useEffect(() => {
+        AOS.init();
+      }, []);
 
     return (
-<section className='c-wrapper'>
+<section className='c-wrapper'
+  data-aos="fade-up" 
+ data-aos-duration="700"
+>
 
 
 
 
 
 <h1 className='paddings'> BRANDS THAT TRUSTS US </h1>
-<div className='paddings innerWidth c-container'>
+<div className='paddings innerWidth flexCenter c-container'>
 
 
 

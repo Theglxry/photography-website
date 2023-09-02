@@ -1,0 +1,129 @@
+.gallery-section{
+  width: 100%;
+  padding-top: 5rem;
+  background: rgb(214, 224, 205);
+  color: #fff;
+}
+
+.gallery-section .gallery-items-container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gallery-section .gallery-items-container  .gallery-items{
+  gap: 5rem; 
+  padding-inline:  2rem;
+  padding-bottom: 5rem;
+  grid-template-columns: repeat(1, 1fr);
+
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+
+.gallery-item > div {
+    position: relative;
+    width: 100%;
+  }
+
+  
+.img-container {
+    position: relative;
+    border: 2px solid rgb(148, 203, 142);
+}
+
+
+.img-container .single-img{
+    position: relative;
+    margin: 10px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+ .single-img .single-img-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 30px;
+    background: rgba(0, 0, 0, 0.7);
+  } 
+ 
+.single-img .single-img-content h3{
+        text-align: center;
+        font-size: var(--font-s);
+      
+}
+
+
+.content {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1s ease;
+  color: #fff;
+  opacity: 0;
+}
+
+.img-container:hover .content {
+  opacity: 1;
+}
+
+.zoom-text {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.zoom-text:hover {
+  cursor: zoom-in;
+  transform: scale(1.1);
+}
+
+
+
+
+
+@media (min-width: 768px) {
+   .gallery-section{
+    background: url("/cloud_11zon.webp");
+
+   }
+
+   .gallery-section .gallery-items-container {
+    width: 90%;
+   }
+
+   .gallery-section .gallery-items-container .gallery-items{
+  gap: 8%; 
+  padding: 0 2rem 25rem;
+  grid-template-columns: repeat(3, 1fr);
+
+   }
+
+   .img-container img:hover{
+    transform: scale(1.1);
+  }
+
+  .single-img  .single-img-content h3 {
+    /* font-size: 18px; */
+    font-size: var(--font-m);
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+}

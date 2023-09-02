@@ -1,6 +1,16 @@
+// import { Link } from "react-scroll";
+import { Link } from 'react-router-dom';
 import "./DisplayImages.css";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const DisplayImages = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <section className="portfolio-wrapper">
       <h1 className="paddings">
@@ -13,36 +23,44 @@ const DisplayImages = () => {
 <div className="glass display-wrapper">
 
 
-<div className="image-container" >
-<h2> . . . . . . .  </h2>  
+<div className="image-container" 
+        data-aos="fade-up" 
+        data-aos-duration="700">
+{/* <h2> . . . . . . .  </h2>   */}
 <img src="./mm1.webp" alt=""     />
 </div>
 
 
-<div className="image-container" >
+<div className="image-container" 
+        data-aos="fade-up" 
+        data-aos-duration="800"
+
+>
 {/* <h2> . . . . . . .  </h2>   */}
 <img src="./tk.webp" alt=""     />
-{/* <h1 className="glass" data-aos="fade-up"><a href="gallery.html"> View gallery &gt;&gt;&gt;&gt;  </a> </h1> */}
-
 </div>
 
 
-<div className="image-container" >
+<div className="image-container" 
+        data-aos="fade-up" 
+        data-aos-duration="1000"
+>
 {/* <h2> . . . . . . .  </h2>   */}
 <img src="./fam.webp" alt=""     />
-
 </div>
 
 
 
-<div className="image-container   center-box" >
-{/* <h2> . . . . . . .  </h2>   */}
-{/* <img src="./fam.webp" alt=""     /> */}
+<div className="image-container   center-box"
+        data-aos="fade-up" 
+        data-aos-duration="1200"
+>
+
 
 <div class="circle" data-folder-name ="portraits">
-<a href="#"> 
+<Link to="/gallery" href="#"> 
 View portfolio 
-</a>
+</Link>
 </div>
 
 </div>

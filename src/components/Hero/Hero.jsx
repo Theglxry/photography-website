@@ -2,20 +2,32 @@
 import "./Hero.css";
 import Header from "../Header/Header";
 import React, { useEffect } from "react";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Hero = () => {
+
+const Hero = ({backgroundImage}) => {
   useEffect(() => {
     AOS.init();
   }, []);
 
+  const heroStyles = {
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    maxWidth: '100%',
+    height: '80rem',
+    color: '#fff',
+  };
+ 
   return (
-    <section className="hero-wrapper">
-      <Header />
+    <section className="hero-wrapper" style={ {...heroStyles}}>
+      <Header  />
 
       <div
-        data-aos="fade-up"
+        data-aos="fade-left"
         data-aos-duration="1000"
         className="glass flexColStart  intro-container "
       >
