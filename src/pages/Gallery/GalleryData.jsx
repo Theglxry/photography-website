@@ -18,8 +18,8 @@ const GalleryItem = ({ title, imageUrl , instagramUrl }) => {
 
 
     <div className="img-container"   
-        data-aos="fade-up" 
-        data-aos-duration="600"
+        // data-aos="fade-up" 
+        // data-aos-duration="600"
      >
       <div className="single-img">
          <img src={imageUrl} alt={title} style={{ width: "100%" }} />
